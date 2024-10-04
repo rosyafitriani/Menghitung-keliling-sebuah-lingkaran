@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class App{
+    public static void main(String[] args) throws Exception {
+        Scanner inputan = new Scanner(System.in);
+        System.out.print("Masukan jari-jari lingkaran : ");
+        double jarijari = inputan.nextDouble();
+        double kelilinglingkaran = 2 * Math.PI * jarijari;
+
+        System.out.printf( "keliling lingkaran : " + kelilinglingkaran);
+        inputan.close();
+    }
+}
